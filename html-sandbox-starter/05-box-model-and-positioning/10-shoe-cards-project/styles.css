@@ -1,3 +1,111 @@
-body {
-  font-family: 'Roboto', sans-serif;
+/* Global Styles */
+
+* {
+  /* Reset default browser styles */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  /* Set the font family and background color for the entire page */
+  font-family: 'Roboto', sans-serif;
+  background-color: #d9e2e8;
+}
+
+/* Container Styles */
+
+.container {
+  /* Set the maximum width and center the container horizontally */
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+/* Card Styles */
+
+.card {
+  /* Set the background color, margin, padding, and border radius for the card */
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px 20px 30px;
+  border-radius: 10px;
+  box-shadow: ; /* Note: box-shadow property is currently empty */
+}
+
+.card h2 {
+  /* Style the heading within the card */
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  /* Style the paragraph text within the card */
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Card Variants */
+
+.card-sporty h2 {
+  /* Override the heading color for the sporty card variant */
+  color: #e04553;
+}
+
+.card-casual h2 {
+  /* Override the heading color for the casual card variant */
+  color: #0d4ba3;
+}
+
+.card-formal h2 {
+  /* Override the heading color for the formal card variant */
+  color: #512b22;
+}
+
+/* Card Link Styles */
+
+.card a {
+  /* Style the links within the card */
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.card a:hover {
+  /* Add a hover effect to the links within the card */
+  opacity: 0.8;
+}
+
+
+/* link colors */
+
+.card-sporty a{
+  background-color: #e04553;
+}
+.card-casual a{
+  background-color: #0d4ba3;
+}
+.card-formal a{
+  background-color: #512b22 ;
+}
+
+/* background images */
+
+.card-sporty{
+  background: #fff url('./images/sporty.png') no-repeat center right/200px;
+   
+}
+.card-casual{
+  background: #fff url('./images/casual.png') no-repeat center right/200px;
+   
+}
+.card-formal{
+  background: #fff url('./images/formal.png') no-repeat center right/200px;
+   
+}
+ 
